@@ -1,0 +1,260 @@
+section article h3 {
+	color: green;
+}
+
+section.noticiaPrincipal article h3 {
+	color: darkblue;
+}
+
+body{
+		background-color: silver;
+}
+p{
+	color: green;
+	text-align: left & justify;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	grid-area: header;
+}
+main{
+	grid-area: principal;
+}
+.index-border{
+	grid-area: pie;
+
+}
+
+.nav--background{
+	background-color: none;
+	position: relative;
+	bottom: 116px;
+	left: 200px;
+	
+}
+
+.nav__item{
+	display: inline;
+}
+.nav__item--background{
+	background-color: green;
+	
+}
+
+.card{
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-left: 8px;
+	margin-top: 50px;
+	margin-right: 32px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+.card--background{
+	background-color: lightblue;
+}
+.img-karma{
+	width: 100px;
+	height: auto;
+
+}
+.logoLibro{
+	width: 200px;
+	height: auto;
+}
+
+
+.background_nosotros{
+	background-color: skyblue;
+}
+
+th, td{
+	border: solid 1px black;
+	padding: 0;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px;
+	color: white;
+}
+
+
+.bg-lightgreen{
+	background-color: lightgreen;
+}
+
+.bg-tabla{
+	background-color: rgb(255, 160, 122);
+}
+
+.style_text{
+	font-size: 24px;
+	color: darkgreen;
+}
+.titulo_contacto{
+	color: darkblue;
+}
+
+.bg-color__formulario{
+	color: green;
+}
+
+.design_title--RD{
+	color: orange;
+}
+
+.row_box{
+	border: solid 1px black;
+  padding: 5px;
+  display: inline-block;
+  font-size: 32px;
+  font-family: Arial;
+  margin: 15px;
+}
+
+
+.logosRedes{
+	width: 100px;
+	height: auto;
+	animation-duration: 2s;
+    animation-name: bombear;
+    animation-iteration-count: infinite;
+}
+.titu_ani{
+	animation-duration: 2s;
+   animation-name: aparecer;
+   animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+.container{
+	width: 300px;
+	height: 300px;
+	background: steelblue;
+	margin: 40px auto;
+	overflow: hidden;
+}
+
+.spiderman{
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+	animation: spiderman 5s infinite;
+}
+
+@keyframes spiderman{
+	0%{
+		transform: translateY(-50px);	 
+	}
+	30%{
+		transform: translateY(0) rotate(5deg);
+	}
+	50%{
+		transform: rotate(-5deg);
+	}
+	75%{
+		transform: rotate(5deg);
+	}
+	100%{
+		transform: translateY(-50px);
+	}
+
+}
+
+.row_1{
+	display: flex;
+	flex-direction: column;
+}
+
+.row_2{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.grid div {
+	background-color: lightcyan;
+	border: 1px solid black;
+	color: black;
+	text-align: center;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 30% 70%; /* 99% o 100% */ /*asigna el tamaño de ancho a la columna */ 
+	grid-template-rows: 200px 400px; /* le asigna el tamaño de altura a la fila */
+	grid-column-gap: 20px; /* agregar un espacio en px entre columnas*/
+	grid-row-gap: 20px; /* agregar un espacio en px entre filas */
+}
+
+.border{
+	border: 1px solid black;
+}
+.logoL{
+	width: 100px;
+}
+.img_texto{
+	width:100%;
+	height: auto;
+}
+li{
+	list-style-type: none;
+	padding: 20px;
+}
+a{
+	text-decoration: none;
+}
+
+div.logo{grid-area: logo;}
+nav{grid-area: nav;}
+.navIzq, .logo, .navDer{
+	background-color: lightcyan;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+ul{
+	display: flex;
+	justify-content: center;
+}
+
+
+h1{
+	margin: 50px 0;
+	text-align: center;
+}
+p{
+	padding: 40px;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+footer{
+	grid-area: footer;
+	background-color: silver;
+	padding: 20px 0;
+	}
+
+p{
+	font-size: 25px;
+	color: green;
+	}
+
+
