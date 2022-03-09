@@ -1,0 +1,27 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    Themes Bootstrap - Smart Agency Template v1.0.0 (https://themesbootstrap.com.mx/templates/smart-agenct-template.html)
+    Copyright 2019 Themes Bootstrap
+    Licensed under MIT (https://github.com/diegovr7/smart-agency/blob/master/LICENSE)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.logo-brand {
+    max-width: 180px;
+    min-width: 160px;
+}
+
+.navbar {
+    background-color: var(--white-color);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    min-height: 100px;
+}
+
+.nav-link { color: var(--dark-color); }
+.nav-link:hover { color: var(--dark-color); }
+
+.navbar-toggler { font-size: 40px; }
+.navbar-toggler:focus { outline: none; }
+
+
